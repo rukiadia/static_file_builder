@@ -1,0 +1,26 @@
+{
+  "name": "static_file_builder",
+  "version": "1.0.0",
+  "description": "build Sass and TypeScript(TSX)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "gulp sass",
+    "format-css": "prettier 'assets/**/*.scss' --write",
+    "format-and-build-css": "run-s format-css build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukiadia/static_file_builder.git"
+  },
+  "author": "rukiadda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rukiadia/static_file_builder/issues"
+  },
+  "devDependencies": {
+    "gulp": "4.0.0",
+    "gulp-sass": "4.0.2",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.15.3"
+  }
+}
